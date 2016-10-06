@@ -18,6 +18,6 @@ while True:
     command=shlex.split("curl -u mail:password https://updates.opendns.com/nic/update");
     subprocess.call(command);
     print("");
-    tempo = time.asctime()
-    print(tempo)
+    tm = time.asctime()
+    print(tm)
     time.sleep(1*60*60) 
