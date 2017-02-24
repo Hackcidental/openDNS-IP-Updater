@@ -17,7 +17,5 @@ while True:
     #Update opendns IP address
     command=shlex.split("curl -u mail:password https://updates.opendns.com/nic/update");
     subprocess.call(command);
-    print("");
-    tm = time.asctime()
-    print(tm)
-    time.sleep(1*60*60) 
+    print("" + " " + time.asctime());
+    time.sleep(1*60*60)
